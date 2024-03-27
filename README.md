@@ -75,7 +75,7 @@ Les contributions sont les bienvenues ! Si vous souhaitez contribuer à ce proje
 
 ## Auteurs
 
-- [Votre Nom](https://github.com/waffokom)
+- [Daniel Prince Kom Waffo ](https://github.com/waffokom)
 
 ## Licence
 
