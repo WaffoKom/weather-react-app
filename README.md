@@ -28,7 +28,7 @@ Avant de commencer, assurez-vous d'avoir les éléments suivants installés :
 2. Accédez au répertoire du projet :
 
    ```bash
-   cd prevision-meteo
+   cd weather-app
    ```
 
 3. Installez les dépendances du projet en exécutant la commande suivante :
