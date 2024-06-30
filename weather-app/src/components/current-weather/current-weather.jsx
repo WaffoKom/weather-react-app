@@ -1,4 +1,5 @@
 const CurrentWeather = ({ data }) => {
+  console.log(data);
   return (
     <div className="weather flex-col w-[350px]  rounded-xl shadow-xl shadow-gray-600 text-white bg-[#333] mt-5 mx-auto mb-0 ">
       <div className="top w-[350px] flex justify-between items-center">
@@ -15,7 +16,10 @@ const CurrentWeather = ({ data }) => {
         />
       </div>
       <div className="bottom mt-2 pb-5 flex justify-around items-center">
-        <p className="temperature text-[70px] font-bold w-auto tracking-[-5px] ">
+        <p
+          className="temperature text-[70px] font-bold w-auto tracking-[-5px] "
+          as="div"
+        >
           {Math.round(data.main.temp)}°C
         </p>
         <p className="details  text-sm mr-2 w-40">

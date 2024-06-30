@@ -17,6 +17,7 @@ export default function App() {
     );
     Promise.all([currentWeatherFetch, forecastFetch])
       .then(async (response) => {
+        console.log(response);
         const weatherResponse = await response[0].json();
         const forecastResponse = await response[1].json();
         setcurrentWeather({ city: searchData.label, ...weatherResponse });
