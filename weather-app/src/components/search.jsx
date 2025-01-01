@@ -9,7 +9,7 @@ const Search = ({ onSearchChange }) => {
     const urldynamic = `${url}/cities?minPopulation=1000000&namePrefix=${inputValue}`;
 
     const data = await fetchData(urldynamic, geoApiOptions);
-    console.log(data);
+    // console.log(data);
     return {
       options: data
         ? data.data.map((city) => ({
