@@ -1,5 +1,5 @@
 const CurrentWeather = ({ data }) => {
-  console.log(data);
+  // console.log(data);
   return (
     <div className="weather flex-col w-[350px]  rounded-xl shadow-xl shadow-gray-600 text-white bg-[#333] mt-5 mx-auto mb-0 ">
       <div className="top w-[350px] flex justify-between items-center">
