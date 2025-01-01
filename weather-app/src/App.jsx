@@ -24,7 +24,7 @@ export default function App() {
         setForecast({ city: searchData.label, ...forecastResponse });
       })
       .catch((error) => console.error(error));
-    console.log(currentWeather, forecast);
+    // console.log(currentWeather, forecast);
   };
   return (
     <div className="bg-[#d5d4d4] flex-col w-full h-screen overflow-y-auto">
