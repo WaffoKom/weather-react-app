@@ -18,7 +18,7 @@ export async function fetchData(_url, options) {
     // console.log(data);
     return data; // Renvoyer les données à utiliser dans votre composant
   } catch (error) {
-    console.error(error);
+    // console.error(error);
     return null; // Ou gérer les erreurs différemment (par exemple, lancer une erreur)
   }
 }
